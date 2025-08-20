@@ -1,0 +1,87 @@
+// Imports
+#import "@preview/brilliant-cv:2.0.5": cvSection, cvEntry
+#let metadata = toml("../metadata.toml")
+#let cvSection = cvSection.with(metadata: metadata)
+#let cvEntry = cvEntry.with(metadata: metadata)
+
+
+#cvSection("Projects")
+
+#cvEntry(
+  title: [Sole Developer],
+  society: [Distributed System for Secure Academic Score Verification],
+  date: [2025],
+  location: [Academic Project],
+  tags: ("Rust", "HTMX", "Project Fluent i18n", "Tailwind CSS"),
+  description: list(
+    [Developed a solution to standardize and secure the verification of academic performance],
+    [Engineered a system that generated cryptographically signed proofs of student performance],
+    [Designed and implemented a distributed multi-component architecture],
+  ),
+)
+
+#cvEntry(
+  title: [Core Maintainer],
+  society: [Library for Secure & Type-Safe Database ID Obfuscation],
+  date: [2024 - Present],
+  location: [Personal Project],
+  tags: ("Rust", "Symmetric Cryptography", "GitHub Actions"),
+  description: list(
+    [Implemented a unique and efficient encoding scheme],
+    [Engineered a robust testing suite including benchmarking as well as property-based testing],
+    [Managed the CI/CD pipeline],
+  ),
+)
+
+#cvEntry(
+  title: [Sole Developer],
+  society: [SaaS Platform for Diving Centers],
+  date: [2024],
+  location: [Academic Project],
+  tags: ("Rust", "React", "Tailwind CSS", "Docker"),
+  description: list(
+    [Architected and developed a full-stack SaaS platform for the discovery and booking of diving experiences across multiple centers],
+    [Engineered an IoT-integrated system],
+    [Implemented a robust booking and user management system],
+    [Designed and deployed containerized applications],
+  ),
+)
+
+#cvEntry(
+  title: [Core Maintainer],
+  society: [Modular Nix-based Tooling for Reproducible Development Environments],
+  date: [2023 - Present],
+  location: [Personal Project],
+  tags: ("Nix", "Configuration", "Development Tooling"),
+  description: list(
+    [Engineered a comprehensive suite of Nix modules and templates],
+    [Utilized a unique dependency management model to keep downstream projects clean],
+    [Implemented a reusable template system ],
+    [Managed the CI/CD pipeline],
+  ),
+)
+
+#cvEntry(
+  title: [Front-End Developer],
+  society: [Integrated Platform for a Cleaning Service Provider],
+  date: [2023],
+  location: [Academic Project],
+  tags: ("Angular", "Bootstrap"),
+  description: list(
+    [Engineered a dynamic booking flow and user interface],
+    [Designed and implemented a comprehensive user profile dashboard],
+    [Developed a responsive front-end for adding and managing property details],
+  ),
+)
+
+#cvEntry(
+  title: [Sole Developer],
+  society: [Automation System for an Auto Repair Shop],
+  date: [2022],
+  location: [Academic Project],
+  tags: ("Rust", "React"),
+  description: list(
+    [Engineered a full-stack application to manage the appointment booking process],
+    [Developed an algorithm for the automated assignment of workers],
+  ),
+)
