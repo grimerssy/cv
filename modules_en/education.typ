@@ -10,7 +10,7 @@
   title: [Bachelors of Software Engineering],
   society: [Kharkiv National University of Radioelectronics],
   date: [2021 - 2025],
-  location: [Ukraine],
+  location: [Kharkiv, Ukraine],
   logo: image("../assets/nure.png"),
   description: list(
     [Thesis: Standardizing Academic Scores and Producing Cryptographic Proofs for Student Performance Assessment],
