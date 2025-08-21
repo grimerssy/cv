@@ -10,7 +10,10 @@
   title: [Sole Developer],
   society: [Distributed System for Secure Academic Score Verification],
   date: [2025],
-  location: [Academic Project],
+  location: [
+    Academic Project:
+    #link("https://github.com/grimerssy/pupil", [#underline([Pupil])])
+  ],
   tags: ("Rust", "HTMX", "Project Fluent i18n", "Tailwind CSS"),
   description: list(
     [Developed a solution to standardize and secure the verification of academic performance],
@@ -23,7 +26,10 @@
   title: [Core Maintainer],
   society: [Library for Secure & Type-Safe Database ID Obfuscation],
   date: [2024 - Present],
-  location: [Personal Project],
+  location: [
+    Personal Project:
+    #link("https://github.com/grimerssy/squint", [#underline([Squint])])
+  ],
   tags: ("Rust", "Symmetric Cryptography", "GitHub Actions"),
   description: list(
     [Implemented a unique and efficient encoding scheme],
@@ -36,7 +42,10 @@
   title: [Sole Developer],
   society: [SaaS Platform for Diving Centers],
   date: [2024],
-  location: [Academic Project],
+  location: [
+    Academic Project:
+    #link("https://github.com/grimerssy/marine", [#underline([Marine])])
+  ],
   tags: ("Rust", "React", "Tailwind CSS", "Docker"),
   description: list(
     [Architected and developed a full-stack SaaS platform for the discovery and booking of diving experiences across multiple centers],
@@ -50,7 +59,10 @@
   title: [Core Maintainer],
   society: [Modular Nix-based Tooling for Reproducible Development Environments],
   date: [2023 - Present],
-  location: [Personal Project],
+  location: [
+    Personal Project:
+    #link("https://github.com/grimerssy/snig", [#underline([Snig])])
+  ],
   tags: ("Nix", "Configuration", "Development Tooling"),
   description: list(
     [Engineered a comprehensive suite of Nix modules and templates],
