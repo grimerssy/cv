@@ -96,3 +96,19 @@
     [Developed an algorithm for the automated assignment of workers],
   ),
 )
+
+#cvEntry(
+  title: [Sole Developer],
+  society: [Cross-Platform Grid Game],
+  date: [2022],
+  location: [
+    Academic Project:
+    #link("https://github.com/grimerssy/oop-inertia", [#underline([Inertia])])
+  ],
+  tags: ("C#", "ASP.NET", "Svelte"),
+  description: list(
+    [Designed and implemented a decoupled, service-oriented architecture],
+    [Modeled game mechanics on a tile-based, 2D grid],
+    [Developed multiple user interfaces, including a command-line interface and a web-based UI],
+  ),
+)
