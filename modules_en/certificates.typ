@@ -4,7 +4,6 @@
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvHonor = cvHonor.with(metadata: metadata)
 
-
 #cvSection("Certificates")
 
 #cvHonor(

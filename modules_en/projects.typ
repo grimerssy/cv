@@ -4,7 +4,6 @@
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
 
-
 #cvSection("Projects")
 
 #cvEntry(
@@ -56,7 +55,7 @@
   description: list(
     [Engineered a comprehensive suite of Nix modules and templates],
     [Utilized a unique dependency management model to keep downstream projects clean],
-    [Implemented a reusable template system ],
+    [Implemented a reusable template system],
     [Managed the CI/CD pipeline],
   ),
 )

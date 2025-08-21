@@ -4,7 +4,6 @@
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
 
-
 #cvSection("Education")
 
 #cvEntry(
@@ -14,7 +13,7 @@
   location: [Ukraine],
   logo: image("../assets/nure.png"),
   description: list(
-    [Thesis: Standardizing Academic Scores and Producing Cryptographic Proofs for Student Performance Evaluation],
+    [Thesis: Standardizing Academic Scores and Producing Cryptographic Proofs for Student Performance Assessment],
     [Course: Operating Systems #hBar() Software Architecture #hBar() Databases #hBar() Object-Oriented Programming],
   ),
 )

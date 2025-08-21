@@ -15,5 +15,6 @@
   "education",
   "projects",
   "certificates",
+  "languages",
   "skills",
 ))
