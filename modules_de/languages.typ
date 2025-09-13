@@ -3,25 +3,26 @@
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 
+#box([
+  #cvSection("Sprachen")
 
-#cvSection("Sprachen")
+  #cvSkill(
+    type: [Ukrainisch],
+    info: [Muttersprache],
+  )
 
-#cvSkill(
-  type: [Ukrainisch],
-  info: [Muttersprache],
-)
+  #cvSkill(
+    type: [Russisch],
+    info: [Muttersprache],
+  )
 
-#cvSkill(
-  type: [Russisch],
-  info: [Muttersprache],
-)
+  #cvSkill(
+    type: [Englisch],
+    info: [Fließend],
+  )
 
-#cvSkill(
-  type: [Englisch],
-  info: [Fließend],
-)
-
-#cvSkill(
-  type: [Deutsch],
-  info: [Sichere Sprachkenntnisse],
-)
+  #cvSkill(
+    type: [Deutsch],
+    info: [Sichere Sprachkenntnisse],
+  )
+])

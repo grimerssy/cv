@@ -3,14 +3,16 @@
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 
-#cvSection("Fähigkeiten")
+#box([
+  #cvSection("Fähigkeiten")
 
-#cvSkill(
-  type: [Technologien],
-  info: [Rust #hBar() Go #hBar() React #hBar() PostgreSQL #hBar() Docker #hBar() GitHub Actions #hBar() Nix],
-)
+  #cvSkill(
+    type: [Technologien],
+    info: [Rust #hBar() Go #hBar() React #hBar() PostgreSQL #hBar() Docker #hBar() GitHub Actions #hBar() Nix],
+  )
 
-#cvSkill(
-  type: [Interessen],
-  info: [Functionale Fitness #hBar() Fahrzeuge #hBar() Reisen],
-)
+  #cvSkill(
+    type: [Interessen],
+    info: [Functionale Fitness #hBar() Fahrzeuge #hBar() Reisen],
+  )
+])

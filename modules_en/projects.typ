@@ -4,9 +4,9 @@
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
 
-#cvSection("Projects")
-
 #box([
+  #cvSection("Projects")
+
   #cvEntry(
     title: [Sole Developer],
     society: [Distributed System for Secure Academic Score Verification],
