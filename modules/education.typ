@@ -1,22 +1,38 @@
 #import "@preview/brilliant-cv:2.0.5": cvEntry, cvSection, hBar
+#import "i18n.typ": dictionary
 
 #let education(metadata) = {
   let cvSection = cvSection.with(metadata: metadata)
   let cvEntry = cvEntry.with(metadata: metadata)
-
-  box([
-    #cvSection("Education")
-
-    #cvEntry(
-      title: [Bachelors of Software Engineering],
-      society: [Kharkiv National University of Radioelectronics],
-      date: [2021 - 2025],
-      location: [Kharkiv, Ukraine],
-      logo: image("../assets/nure.png"),
-      description: list(
-        [Thesis: Standardizing Academic Scores and Producing Cryptographic Proofs for Student Performance Assessment],
-        [Course: Operating Systems #hBar() Software Architecture #hBar() Databases #hBar() Object-Oriented Programming],
-      ),
+  let dictionary = dictionary(metadata: metadata)
+  for (i, education_entry) in dictionary.content.education.enumerate() {
+    let (
+      institution,
+      degree,
+      date,
+      location,
+      thesis,
+      courses,
+      logo,
+    ) = education_entry
+    block(
+      breakable: false,
+      {
+        if i == 0 {
+          cvSection(dictionary.education)
+        }
+        cvEntry(
+          title: degree,
+          society: institution,
+          date: date,
+          location: location,
+          logo: image(logo),
+          description: list(
+            [#dictionary.thesis: #thesis],
+            [#dictionary.courses: #courses.join(hBar())],
+          ),
+        )
+      },
     )
-  ])
+  }
 }

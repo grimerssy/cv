@@ -1,0 +1,13 @@
+[[education]]
+institution = "Kharkiv National University of Radioelectronics"
+degree = "Bachelors of Software Engineering"
+date = "2021 - 2025"
+location = "Kharkiv, Ukraine"
+thesis = "Standardizing Academic Scores and Producing Cryptographic Proofs for Student Performance Assessment"
+courses = [
+  "Operating Systems",
+  "Software Architecture",
+  "Databases",
+  "Object-Oriented Programming",
+]
+logo = "/assets/nure.png"

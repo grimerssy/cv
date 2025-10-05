@@ -1,0 +1,89 @@
+[[projects]]
+role = "Sole Developer"
+description = "Distributed System for Secure Academic Score Verification"
+date = "2025"
+company = "Academic Project"
+tags = ["Rust", "HTMX", "Project Fluent i18n", "Tailwind CSS"]
+tasks = [
+  "Developed a solution to standardize and secure the verification of academic performance",
+  "Engineered a system that generated cryptographically signed proofs of student performance",
+  "Designed and implemented a distributed multi-component architecture",
+]
+repository = { name = "Pupil", link = "https://github.com/grimerssy/pupil" }
+
+[[projects]]
+role = "Core Maintainer"
+description = "Library for Secure & Type-Safe Database ID Obfuscation"
+date = "2024 - Present"
+company = "Personal Project"
+tags = ["Rust", "Symmetric Cryptography", "GitHub Actions"]
+tasks = [
+  "Implemented a unique and efficient encoding scheme",
+  "Engineered a robust testing suite including benchmarking as well as property-based testing",
+  "Managed the CI/CD pipeline",
+]
+repository = { name = "Squint", link = "https://github.com/grimerssy/squint" }
+
+[[projects]]
+role = "Sole Developer"
+description = "SaaS Platform for Diving Centers"
+date = "2024"
+company = "Academic Project"
+tags = ["Rust", "React", "Tailwind CSS", "Docker"]
+tasks = [
+  "Architected and developed a full-stack SaaS platform for the discovery and booking of diving experiences across multiple centers",
+  "Engineered an IoT-integrated system",
+  "Implemented a robust booking and user management system",
+  "Designed and deployed containerized applications",
+]
+repository = { name = "Marine", link = "https://github.com/grimerssy/marine" }
+
+[[projects]]
+role = "Core Maintainer"
+description = "Modular Nix-based Tooling for Reproducible Development Environments"
+date = "2023 - Present"
+company = "Personal Project"
+tags = ["Nix", "Configuration", "Development Tooling"]
+tasks = [
+  "Engineered a comprehensive suite of Nix modules and templates",
+  "Utilized a unique dependency management model to keep downstream projects clean",
+  "Implemented a reusable template system",
+  "Managed the CI/CD pipeline",
+]
+repository = { name = "Snig", link = "https://github.com/grimerssy/snig" }
+
+[[projects]]
+role = "Front-End Developer"
+description = "Integrated Platform for a Cleaning Service Provider"
+date = "2023"
+company = "Academic Project"
+tags = ["Angular", "Bootstrap"]
+tasks = [
+  "Engineered a dynamic booking flow and user interface",
+  "Designed and implemented a comprehensive user profile dashboard",
+  "Developed a responsive front-end for adding and managing property details",
+]
+
+[[projects]]
+role = "Sole Developer"
+description = "Automation System for an Auto Repair Shop"
+date = "2022"
+company = "Academic Project"
+tags = ["Rust", "React"]
+tasks = [
+  "Engineered a full-stack application to manage the appointment booking process",
+  "Developed an algorithm for the automated assignment of workers",
+]
+
+[[projects]]
+role = "Sole Developer"
+description = "Cross-Platform Grid Game"
+date = "2022"
+company = "Academic Project"
+tags = ["C#", "ASP.NET", "Svelte"]
+tasks = [
+  "Designed and implemented a decoupled, service-oriented architecture",
+  "Modeled game mechanics on a tile-based, 2D grid",
+  "Developed multiple user interfaces, including a command-line interface and a web-based UI",
+]
+repository = { name = "Inertia", link = "https://github.com/grimerssy/oop-inertia" }

@@ -1,0 +1,89 @@
+[[projects]]
+role = "Alleinentwickler"
+description = "Verteiltes System zur sicheren Verifizierung von Studienleistungen"
+date = "2025"
+company = "Akademisches Projekt"
+tags = ["Rust", "HTMX", "Project Fluent i18n", "Tailwind CSS"]
+tasks = [
+  "Entwicklung einer kryptografischen Lösung zur Standardisierung und Sicherung der Leistungsverifizierung",
+  "Implementierung eines Systems zur Erstellung kryptografisch signierter Nachweise über Studienleistungen",
+  "Konzeption und Umsetzung einer verteilten Mehrkomponentenarchitektur",
+]
+repository = { name = "Pupil", link = "https://github.com/grimerssy/pupil" }
+
+[[projects]]
+role = "Kern-Maintainer"
+description = "Bibliothek zur sicheren und typensicheren Obfuskation von Datenbank-IDs"
+date = "seit 2024"
+company = "Eigenprojekt"
+tags = ["Rust", "Symmetric Cryptography", "GitHub Actions"]
+tasks = [
+  "Implementierung eines einzigartigen und effizienten Kodierungsschemas",
+  "Umsetzung einer robusten Test-Suite, inklusive Benchmarking sowie Property-based Testing",
+  "Verwaltung der CI/CD-Pipeline",
+]
+repository = { name = "Squint", link = "https://github.com/grimerssy/squint" }
+
+[[projects]]
+role = "Alleinentwickler"
+description = "SaaS-Plattform für Tauchzentren"
+date = "2024"
+company = "Akademisches Projekt"
+tags = ["Rust", "React", "Tailwind CSS", "Docker"]
+tasks = [
+  "Konzeption und Entwicklung einer Full-Stack-SaaS-Plattform für die Entdeckung und Buchung von Taucherlebnissen über mehrere Tauchzentren hinweg",
+  "Umsetzung eines IoT-integrierten Systems",
+  "Implementierung eines robusten Buchungs- und Benutzerverwaltungssystems",
+  "Konzeption und Bereitstellung containerisierter Anwendungen",
+]
+repository = { name = "Marine", link = "https://github.com/grimerssy/marine" }
+
+[[projects]]
+role = "Kern-Maintainer"
+description = "Modulares Nix-basiertes Tooling für reproduzierbare Entwicklungsumgebungen"
+date = "seit 2023"
+company = "Eigenprojekt"
+tags = ["Nix", "Configuration", "Development Tooling"]
+tasks = [
+  "Konzeption und Entwicklung einer umfassenden Suite von Nix-Modulen und Templates",
+  "Verwendung eines einzigartigen Dependency-Management-Modells zur Gewährleistung sauberer nachgelagerter Projekte",
+  "Umsetzung eines wiederverwendbaren Template-Systems",
+  "Verwaltung der CI/CD-Pipeline",
+]
+repository = { name = "Snig", link = "https://github.com/grimerssy/snig" }
+
+[[projects]]
+role = "Frontend-Entwickler"
+description = "Integrierte Plattform für einen Reinigungsdienstleister"
+date = "2023"
+company = "Akademisches Projekt"
+tags = ["Angular", "Bootstrap"]
+tasks = [
+  "Konzeption und Umsetzung eines dynamischen Buchungsprozesses",
+  "Entwicklung eines umfassenden Dashboards zur Benutzerprofilverwaltung",
+  "Umsetzung eines responsiven Frontends zur Eingabe und Verwaltung von Objektdetails",
+]
+
+[[projects]]
+role = "Alleinentwickler"
+description = "Automatisierungssystem für eine Autowerkstatt"
+date = "2022"
+company = "Akademisches Projekt"
+tags = ["Rust", "React"]
+tasks = [
+  "Konzeption und Entwicklung einer Full-Stack-Anwendung zur Automatisierung und Verwaltung des Terminbuchungsprozesses",
+  "Implementierung eines Algorithmus zur automatisierten Zuweisung von Mitarbeitern",
+]
+
+[[projects]]
+role = "Alleinentwickler"
+description = "Plattformübergreifendes Gitterspiel"
+date = "2022"
+company = "Akademisches Projekt"
+tags = ["C#", "ASP.NET", "Svelte"]
+tasks = [
+  "Konzeption und Umsetzung einer entkoppelten, serviceorientierten Architektur",
+  "Modellierung der Spielmechanik auf einem kachelbasierten 2D-Gitter",
+  "Entwicklung mehrerer Benutzeroberflächen, darunter eine Kommandozeilen-Schnittstelle und eine webbasierte UI",
+]
+repository = { name = "Inertia", link = "https://github.com/grimerssy/oop-inertia" }

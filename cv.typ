@@ -1,11 +1,10 @@
 #import "@preview/brilliant-cv:2.0.5": cv
-
 #import "modules/metadata.typ": metadata
 
 #let metadata = metadata()
-
 #import "modules/" + metadata.language + "/qualifications.typ": qualifications
 
-#let qualifications = qualifications(metadata);
+#show: cv.with(metadata)
+#show link: underline
 
-#cv(metadata, qualifications)
+#qualifications(metadata)

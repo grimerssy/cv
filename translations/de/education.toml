@@ -1,0 +1,13 @@
+[[education]]
+institution = "Charkiwer Nationaluniversität für Radioelektronik"
+degree = "Bachelor of Science (B.Sc.) in Softwaretechnik"
+date = "2021 - 2025"
+location = "Charkiw, Ukraine"
+thesis = "Standardisierung akademischer Noten und Erstellung kryptografischer Nachweise für die Leistungsbewertung von Studierenden"
+courses = [
+  "Betriebssysteme",
+  "Software-Architektur",
+  "Datenbanken",
+  "Objektorientierte Programmierung",
+]
+logo = "/assets/nure.png"

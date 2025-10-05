@@ -1,29 +1,17 @@
 #import "@preview/brilliant-cv:2.0.5": cvSection, cvSkill, hBar
+#import "i18n.typ": dictionary
 
 #let languages(metadata) = {
   let cvSection = cvSection.with(metadata: metadata)
-
-  box([
-    #cvSection("Languages")
-
-    #cvSkill(
-      type: [Ukrainian],
-      info: [Native],
-    )
-
-    #cvSkill(
-      type: [Russian],
-      info: [Native],
-    )
-
-    #cvSkill(
-      type: [English],
-      info: [Fluent],
-    )
-
-    #cvSkill(
-      type: [German],
-      info: [Working Proficiency],
-    )
-  ])
+  let dictionary = dictionary(metadata: metadata)
+  block(
+    breakable: false,
+    {
+      cvSection(dictionary.languages)
+      for language in dictionary.content.languages {
+        let (name, proficiency) = language
+        cvSkill(type: name, info: proficiency)
+      }
+    },
+  )
 }

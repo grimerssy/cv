@@ -1,0 +1,7 @@
+[[skills]]
+category = "Technologien"
+list = ["Rust", "Go", "React", "PostgreSQL", "Docker", "GitHub Actions", "Nix"]
+
+[[skills]]
+category = "Interessen"
+list = ["Functionale Fitness", "Rennsport", "Reisen"]
