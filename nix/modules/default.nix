@@ -1,8 +1,11 @@
 { ... }:
 {
   imports = [
-    # keep-sorted start block=yes case=no numeric=yes
+    # keep-sorted start case=no numeric=yes
+    ./dev-shells.nix
+    ./flake-parts.nix
     ./formatter.nix
+    ./packages.nix
     # keep-sorted end
   ];
 }

@@ -1,2 +1,6 @@
-.DS_Store
+.direnv/
+/result
+
 *.pdf
+
+.DS_Store
