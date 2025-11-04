@@ -45,8 +45,7 @@ date = "2023 - Present"
 company = "Personal Project"
 tags = ["Nix", "Configuration", "Development Tooling"]
 tasks = [
-  "Engineered a comprehensive suite of Nix modules and templates",
-  "Utilized a unique dependency management model to keep downstream projects clean",
+  "Engineered a comprehensive suite of Nix modules for software and hardware configuration",
   "Implemented a reusable template system",
   "Managed the CI/CD pipeline",
 ]

@@ -45,8 +45,7 @@ date = "seit 2023"
 company = "Eigenprojekt"
 tags = ["Nix", "Configuration", "Development Tooling"]
 tasks = [
-  "Konzeption und Entwicklung einer umfassenden Suite von Nix-Modulen und Templates",
-  "Verwendung eines einzigartigen Dependency-Management-Modells zur Gewährleistung sauberer nachgelagerter Projekte",
+  "Konzeption und Entwicklung einer umfassenden Suite von Nix-Modulen für die Software- und Hardwarekonfiguration",
   "Umsetzung eines wiederverwendbaren Template-Systems",
   "Verwaltung der CI/CD-Pipeline",
 ]
