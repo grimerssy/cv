@@ -1,7 +1,7 @@
 { ... }:
 {
   perSystem =
-    { inputs', pkgs, ... }:
+    { pkgs, ... }:
     {
       packages = with pkgs; {
         # keep-sorted start block=yes case=no numeric=yes
